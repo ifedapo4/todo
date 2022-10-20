@@ -151,47 +151,9 @@ input {
 }
 
 
-/*media queries*/
-@media (max-width: 375px) {
-  .parent{
-    display: grid;
-    place-items: center;
-    margin: 0;
-    padding: 0;
-  }
-  .header{
-  background-color: ;
-  padding: 40px 200px 100px 200px;
-  color: white;
-  text-align: center;
-  margin-left: 280px;
-  margin-right: 230px;
-}
-ul li {
-  cursor: pointer;
-  position: relative;
-  padding: 12px 8px 12px 40px;
-  list-style-type: none;
-  background: hsl(235, 21%, 11%);
-  font-size: 18px;
-  transition: 0.2s;
-  width: -150px;
-  height: 100px;
-  margin-left: -50px;
-
-  
-  /* make the list items unselectable */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
 
 
-}
 
-  }
-}
 
 
 
